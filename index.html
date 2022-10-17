@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Postme</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" /> 
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="src/css/app.css">
+  <script src="src/js/app.js"></script>
+</head>
+<body>
+  <!-- Always shows a header, even in smaller screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Postme</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="">Ver publicaciones</a>
+          <a class="mdl-navigation__link" href="">Imágenes</a>
+          <a class="mdl-navigation__link" href="">Videos</a>
+          <a class="mdl-navigation__link" href="">Audios</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Postme</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">
+          <i class="material-icons mdl-color-text--primary">home</i>
+          Ir a la página principal
+        </a>
+        <a class="mdl-navigation__link" href="">
+          <i class="material-icons mdl-color-text--primary">post_add</i>
+          Ver publicaciones
+        </a>
+        <a class="mdl-navigation__link" href="">
+          <i class="material-icons mdl-color-text--primary">camera_alt</i>
+          Imágenes
+        </a>
+        <a class="mdl-navigation__link" href="">
+          <i class="material-icons mdl-color-text--primary">ondemand_video</i>
+          Videos
+        </a>
+        <a class="mdl-navigation__link" href="">
+          <i class="material-icons mdl-color-text--primary">music_video</i>
+          Audios
+        </a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div id="main">
+          <div id="main">
+            <div class="card-wide mdl-card page-index">
+              <div class="svg--container">
+                <div></div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                  <path fill="#800080" fill-opacity="1" d="M0,96L10.4,85.3C20.9,75,42,53,63,69.3C83.5,85,104,139,125,144C146.1,149,167,107,188,80C208.7,53,230,43,250,48C271.3,53,292,75,313,96C333.9,117,355,139,376,160C396.5,181,417,203,438,176C459.1,149,480,75,501,48C521.7,21,543,43,563,69.3C584.3,96,605,128,626,144C647,160,668,160,689,154.7C709.6,149,730,139,751,149.3C772.2,160,793,192,814,218.7C834.8,245,856,267,877,250.7C897.4,235,918,181,939,154.7C960,128,981,128,1002,160C1022.6,192,1043,256,1064,245.3C1085.2,235,1106,149,1127,112C1147.8,75,1169,85,1190,112C1210.4,139,1231,181,1252,186.7C1273,192,1294,160,1315,122.7C1335.7,85,1357,43,1377,48C1398.3,53,1419,107,1430,133.3L1440,160L1440,320L1429.6,320C1419.1,320,1398,320,1377,320C1356.5,320,1336,320,1315,320C1293.9,320,1273,320,1252,320C1231.3,320,1210,320,1190,320C1168.7,320,1148,320,1127,320C1106.1,320,1085,320,1064,320C1043.5,320,1023,320,1002,320C980.9,320,960,320,939,320C918.3,320,897,320,877,320C855.7,320,835,320,814,320C793,320,772,320,751,320C730.4,320,710,320,689,320C667.8,320,647,320,626,320C605.2,320,584,320,563,320C542.6,320,522,320,501,320C480,320,459,320,438,320C417.4,320,397,320,376,320C354.8,320,334,320,313,320C292.2,320,271,320,250,320C229.6,320,209,320,188,320C167,320,146,320,125,320C104.3,320,83,320,63,320C41.7,320,21,320,10,320L0,320Z"></path>
+                </svg>
+              </div>
+              <div class="page--initial">
+                <i class="material-icons">emoji_objects</i>
+                <div class="description">
+                  Si no quieres olvidarte de una idea, mensaje o palabra publícalos y hazlos persistentes.
+                </div>
+              </div>
+              <div class="page--initial">
+                <i class="material-icons">add_a_photo</i>
+                <div class="description">
+                  Si no quieres perder fotos que tomaste de lugares, personas y eventos que te gustaron, publícala para que no se pierda.
+                </div>
+              </div>
+              <div class="page--initial">
+                <i class="material-icons">ondemand_video</i>
+                <div class="description">
+                  Si no quieres escribir y solo deseas grabar un video o un audio, también puedes hacerlo y volverlo un recuerdo para siempre.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Botón add -->
+      <div class="floating-button">
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored" id="btn-upload-post">
+          <i class="material-icons">add</i>
+        </button>
+      </div>
+      <!-- Sección para agregar un post -->
+      <div class="card-wide mdl-card" id="modal-post-section">
+        <div class="mdl-card__supporting-text">
+          <form action="#">
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--12-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="title">
+                <label class="mdl-textfield__label" for="title">Título</label>
+              </div>
+              <div class="mdl-cell mdl-cell--12-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <textarea class="mdl-textfield__input" type="text" rows= "3" id="description"></textarea>
+                <label class="mdl-textfield__label" for="description">Descripción</label>
+              </div>
+              <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-grid">
+                  <div class="mdl-cell mdl-cell--6-col">
+                    <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-color-text--white mdl-color--primary-dark" id="btn-post-submit">
+                      Publicar
+                    </button>
+                  </div>
+                  <div class="mdl-cell mdl-cell--6-col">
+                    <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="btn-post-cancel">
+                      Cancelar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

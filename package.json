@@ -1,0 +1,19 @@
+{
+  "name": "postme",
+  "version": "1.0.0",
+  "description": "Es una Aplicación Web Progresiva para hacer publicaciones.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c -1 ."
+  },
+  "keywords": [
+    "pwa",
+    "postme",
+    "utcv"
+  ],
+  "author": "20193l001006@utcv.edu.mx",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
